@@ -1,0 +1,20 @@
+{
+  "name": "scaffold-react-ts",
+  "version": "1.0.0",
+  "description": "A scaffold for react+ts application using webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abiaqiou/scaffold-react-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abiaqiou/scaffold-react-ts/issues"
+  },
+  "homepage": "https://github.com/abiaqiou/scaffold-react-ts#readme"
+}
