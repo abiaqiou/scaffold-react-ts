@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 module.exports = {
   mode: 'development',
   devtool: 'cheap-module-source-map',
@@ -5,4 +7,9 @@ module.exports = {
     hot: true,
     open: true,
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env.myEnv': JSON.stringify('dev-myEnv'),
+    }),
+  ],
 }
